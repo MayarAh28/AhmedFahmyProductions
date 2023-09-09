@@ -1046,6 +1046,9 @@ input {
   .gammingchannel .latest::after {
     right: -70px;
   }
+.gammingchannel .latest { 
+  font-size : 30px;
+}
 }
 /* End Gamming Channel */
 /* Start Footer */
@@ -1063,5 +1066,10 @@ input {
 }
 .footer .container p span {
   color: rgb(255, 34, 34);
+}
+@media (max-width: 767px) {
+  .footer .container p {
+    font-size: 15px;
+  }
 }
 /* End Footer */
